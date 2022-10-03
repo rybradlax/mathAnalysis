@@ -1,6 +1,7 @@
 # mathAnalysis
 
 corrAnalysis.py
+
 This program enables you to import two datasets and derive correlational coefficient from them as well as produce a graph containing the relevant data.
 
 USAGE
@@ -14,6 +15,7 @@ You can also access the other functions (mean, correlationCoefficient) to return
 
 
 bladFinance.py
+
 This program enables you to gather yield curve data over a certain time frame from the U.S. Treasury.
 
 USAGE
