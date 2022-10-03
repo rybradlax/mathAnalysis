@@ -4,6 +4,8 @@ corrAnalysis.py
 This program enables you to import two datasets and derive correlational coefficient from them as well as produce a graph containing the relevant data.
 
 USAGE
+
+
 Define corrAnalysis object containing an array (list or tuple), another array (list or tuple) of data to compare (they must be of the same length), a label for the x axis (second array) and y axis (first array) in string form.
 
 run the chart() function on this object and it will display a chart of the values and their correlational coefficient with the relevant labels and title (xlabel v. ylabel).
