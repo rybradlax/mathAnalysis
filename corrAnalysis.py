@@ -47,6 +47,6 @@ class corrAnalysis:
         
         plt.xlabel(str(self.xlabel) + " r = "+str(r))
         plt.ylabel(str(self.ylabel))
-
+        plt.title(str(self.xlabel) + " v. " + str(self.ylabel))
         plt.plot(self.values,self.data)
         plt.show()
