@@ -22,3 +22,12 @@ USAGE
 Run getDailyTreasuryInterestRates(monthYear, toPresent) and input a boolean for toPresent to determine whether you want it to gather and compile data from the selected timeframe to the present day, inputing a string in yyyymm (int) format with toPresent declared as false (cannot input true if gathering monthly data) will gather data for the selected month in each day, inputting a year in yyyy (int) format will gather data for an entire year for each day, if toPresent is true it will gather data for each year up until the present day and compile it into the dataframe.
 
 Returns a pandas dataframe.
+
+
+integralEstimator.py
+
+This program enables you to approximate function integrals by utilizing riemann sums or the simpson's rule and graphs the approximation
+
+USAGE
+
+Input a function as a string, where it is in terms of "x" (other variables won't work) and pick an approximation to use, then it will output the resulting approximation. Chart function will chart the approximate integral of the function.
